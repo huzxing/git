@@ -27,7 +27,6 @@ git是目前世界上 **最先进** 的分布式版本控制系统，由Linux之
 因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的 **名字** 和 **Email** 地址。
 
 **注意** : git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用
-
 户名和Email地址。
 
 # github网站 #
@@ -45,7 +44,7 @@ git是目前世界上 **最先进** 的分布式版本控制系统，由Linux之
 第2步：登陆GitHub，打开“Account settings”，“SSH Keys”页面：然后，点“Add SSH key”，填上任意的title，在key文本框里面粘贴id_rsa.pub的
 内容，点“Add Key”，你就应该看到已经添加的Key。
 
-**为什么GitHub需要SSH Key呢** 因为GitHub需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而Git支持SSH协议，所以，GitHub只要知道了你的公钥，就可以确认只有你自己才能推送。
+**为什么GitHub需要SSH Key呢** : 因为GitHub需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而Git支持SSH协议，所以，GitHub只要知道了你的公钥，就可以确认只有你自己才能推送。
     
    
 
