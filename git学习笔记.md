@@ -23,4 +23,8 @@ git是目前世界上 **最先进** 的分布式版本控制系统，由Linux之
     $ git config --global "huzaixing123456"
   
     $ git config --global "252174621@qq.com"
+    
+因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。
+
+**注意** : git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
 
