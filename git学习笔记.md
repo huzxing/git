@@ -14,13 +14,13 @@ git是目前世界上 **最先进** 的分布式版本控制系统，由Linux之
 
 # Git的安装 #
 
-## windows下的Git安装 ##
+### windows下的Git安装 ###
 
 从 [http://git-scm.com/download/](http://git-scm.com/download/) 下载然后就是傻瓜式安装即可
 
 ### Git的本地环境配置 ###
 
-  $ git config --global "huzaixing123456"
+    $ git config --global "huzaixing123456"
   
-  $ git config --global "252174621@qq.com"
+    $ git config --global "252174621@qq.com"
 
