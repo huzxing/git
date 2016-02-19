@@ -38,8 +38,8 @@ git是目前世界上 **最先进** 的分布式版本控制系统，由Linux之
 
 由于本地Git仓库和GitHub仓库之间的传输是通过SSH加密的，所以，需要一点设置：
 
-+  第1步：创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：
-
++  第1步：创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key。
+    
     $ ssh-keygen -t rsa -C "252174621@qq.com"
     
 +  第2步：登陆GitHub，打开“Account settings”，“SSH Keys”页面：然后，点“Add SSH key”，填上任意的title，在key文本框里面粘贴id_rsa.pub的
